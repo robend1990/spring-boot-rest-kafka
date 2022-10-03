@@ -152,7 +152,7 @@ Supported query params:
 
 **All Query params can be used in any combination**
 
-##Health check
+## Health check
 
 `GET http://localhost:8080/actuator/health`
 
@@ -163,7 +163,7 @@ Return health status (UP/DOWN) as `application/json`:
 ```
 Health check is based on available disk space and connection to the database
 
-##Kafdrop
+## Kafdrop
 
 In order to view domain events go to `http://localhost:9000`.
 In `Topics` view click on `users` -> `view messages` -> `view messages`. 
